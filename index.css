@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:rgb(221, 221, 221);
+    text-decoration: none;
+}
+
+nav {
+    padding: 10px 10%;
+    width: 100%;
+    background-color:  rgb(8, 85, 2);
+    border-bottom: black;
+    border-style: solid;
+}
+
+nav h1 {
+    display: inline-flex;
+    align-content: flex-start;
+    color: seashell;
+    font-size: 36px;
+}
+
+.nav_links {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0px 20px;
+    list-style: none;
+    margin-left: auto;
+
+}
+
+button {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    margin-left: 25px;
+    padding: 7px 25px;
+    background-color: rgb(7, 150, 66);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(8, 85, 2, 0.712);
+    color: rgb(199, 96, 22);
+    transition: all 0.3s ease 0s;
+}
+
+header {
+    width: 75%;
+    height 500px;
+}
+
+aside {
+    display: flex;
+    align-self: start;
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+    width: 20%;
+    margin-left: 77%;
+}
+
+footer { 
+    padding: 10px 10%;
+    width: 100%;
+    background-color:  rgb(8, 85, 2);
+    border-bottom: black;
+    border-style: solid;
+}
