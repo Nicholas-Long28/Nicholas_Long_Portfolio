@@ -5,15 +5,17 @@
 }
 
 li, a, button {
+    display: inline-block;
+    text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     color:rgb(221, 221, 221);
     text-decoration: none;
 }
 
 nav {
-    padding: 10px 10%;
+    padding: 5px 1%;
     width: 100%;
     background-color:  rgb(8, 85, 2);
     border-bottom: black;
@@ -21,37 +23,36 @@ nav {
 }
 
 nav h1 {
-    display: inline-flex;
-    align-content: flex-start;
+    position: absolute;
+    padding: 0px;
+    float: left;
+    margin-left: 0%;
+    margin-top: -60px;
     color: seashell;
-    font-size: 36px;
+    font-size: 48px;
 }
 
 .nav_links {
-    display: flex;
     flex-wrap: nowrap;
-    padding: 0px 20px;
+    width: auto;
+    padding: 10px;
     list-style: none;
-    margin-left: auto;
-
+    margin-left: 1200px;
 }
 
 button {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: flex-end;
-    margin-left: 25px;
-    padding: 7px 25px;
-    background-color: rgb(7, 150, 66);
+    margin-left: 15px;
+    padding: 10px 20px;
+    background-color: rgba(8, 85, 2, 0.712);
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
 button:hover {
-    background-color: rgba(8, 85, 2, 0.712);
-    color: rgb(199, 96, 22);
+    background-color: rgb(7, 150, 66);
+    color: rgb(233, 181, 10);
     transition: all 0.3s ease 0s;
 }
 
