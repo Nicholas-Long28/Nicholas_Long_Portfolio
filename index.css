@@ -72,9 +72,19 @@ aside {
 }
 
 footer { 
-    padding: 10px 10%;
+    padding: 0px;
+    height: 60px;
     width: 100%;
     background-color:  rgb(8, 85, 2);
     border-bottom: black;
     border-style: solid;
+}
+
+.contact_info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 15px 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
 }
