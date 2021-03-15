@@ -22,7 +22,7 @@ li, a, button {
 
 /*Styling the nav bar*/
 nav {
-    padding: 5px 1%;
+    padding: 5px 0;
     width: 100%;
     background-color:  rgb(8, 85, 2);
     border-bottom: black;
@@ -106,14 +106,15 @@ main {
 
 /*Layout of the aside within main*/
 aside {
+    display: inline-block;
     flex-direction: column;
     border-style: solid;
     border-color: rgb(202, 178, 148);
     background-color: rgb(27, 46, 26);
     color: white;
-    position: absolute;
+    position: sticky;
     top: -430px;
-    right: 110px;
+    right: 20px;
     height: 400px;
     width: 13%;
     padding: 7px;
@@ -158,3 +159,106 @@ footer {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
 }
+
+
+/*Formatting the screen for tablets*/
+@media screen and (max-width: 1860px) {
+    header {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+    main {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+} 
+    aside {
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+    footer { 
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+/*Formatting the screen for tablets*/
+@media screen and (max-width: 1450px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    main {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    } 
+    aside {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    footer { 
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+
+/*Formatting the screen for tablets*/
+@media screen and (max-width: 1000px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    main {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    } 
+    aside {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    footer { 
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    /*Formatting the screen for tablets*/
+@media screen and (max-width: 800px) {
+    header {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    main {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    } 
+    aside {
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
+    footer { 
+        display: inline-flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    
