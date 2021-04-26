@@ -8,6 +8,7 @@ Provide a short description explaining the what, why, and how of your project. U
 ## Table of Contents (Optional)
 If your README is long, add a table of contents to make it easy for users to find what they need.
 - Navigate to the webpage via: https://nicholas-long28.github.io/Nicholas_Long_Portfolio/
+- Navigate to my GitHub repos to view all of my work via: https://github.com/Nicholas-Long28?tab=repositories
 - Navigate to exterior links and read the webpage clearly. 
 - Credits
 - MIT License
