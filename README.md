@@ -18,12 +18,14 @@ Provide instructions and examples for use. Include screenshots as needed.
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
     ```md
     ![Website Preview](./assets\Portfolio%20screenshot.png)
+    ![Resume Preview](./assets\resume port.png)
     ```
 ## Credits
 https://developer.mozilla.org/en-US/
 upenn-phi-fsf-pt-02-2021-u-c\02-Advanced-CSS
 https://flexboxfroggy.com/
 https://www.w3schools.com/
+
 ## License
 MIT License
 
