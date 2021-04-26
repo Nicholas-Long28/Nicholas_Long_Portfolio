@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./index.css"/>
     <title>Nicholas Long Portfolio</title>
 </head>
@@ -11,43 +12,51 @@
 <body>
 
     <nav>
-        <ul class="nav_links">
+        <ul class="nav nav-pills">
             <li><a href="https://my.indeed.com/p/nicholasl-4zk6sju"><button>Resume</button></a></li>
             <li><a href="https://github.com/Nicholas-Long28"><button>GitHub</button></a></li>
             <li><a href= "https://www.linkedin.com/in/nicholas-long-61b941210/"><button>LinkedIn</button></a></li>
-            <li><button>Contact Me</button></li>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        <ul class="nav_links">
+            <li>Contact Me</li>
         </ul>
         <h1>NICHOLAS LONG</h1>
     </nav>
     <header>
-        <img src="./assets\Project 1.png" alt="Project 1" width="1450" height="500"/>
+        <div class="container-main">
+            <img src="./assets\Project 1.png" alt="Project 1" width="1050" height="500"/>
+        </div>
     </header>
-
+    
     <main>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">About me</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3">I'm Nicholas and im 28 based in Pittsburgh. I've been bartending for the last 5 years and traveling as much as possible. Currently working on changing career paths.</textarea>
+          </div>
+        </form>
         <section class="projects">
+            <div class="container">
             <img src="./assets\Horiseon_Client_Optimization.png" alt="First app" width="500" height="500"/>
         <p>1st application</p>
+                </div>
         </section>
         <section class="projects">
+            <div class="container">
             <img src="./assets\Api quiz.png" alt="Quiz application" width="500" height="500"/>
         <p>Quiz Application</p>
+            </div>
         </section>
         <section class="projects">
+            <div class="container">
             <img src="./assets\work day planner.png" alt="Work Day Planner app" width="500" height="500"/>
         <p>Schedule planner app</p>
+            </div>
         </section>
-        <aside>
-            <header>
-                <h2>About Me</h2>
-            </header>
-            <br>
-            <b>I'm Nicholas and im 28 based in Pittsburgh. I've been bartending for the last 5 years and traveling as much as possible. Currently working on changing career paths.</b>
-        </aside>
     </main>
 
     <footer>
         <ul class="contact_info">
-            <li>Contact Info:</li>
+            <li>Contact Info: Nicholas Long</li>
             <li>Nicholas.J.Long2018@gmail.com</li>
             <li>(814)320-1138</li>
         </ul>
