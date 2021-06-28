@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: rgba(153, 155, 154, 0.486);
+    background-color: rgba(147, 241, 194, 0.486);
 }
 
 /*Aligning and styling nav buttons*/
@@ -24,13 +24,13 @@ li, a, button {
 nav {
     padding: 5px 0;
     width: 100%;
-    background-color:  rgb(8, 85, 2);
+    background-color:  rgb(5, 54, 21);
     border-bottom: black;
     border-style: solid;
-    border-top-color: rgb(8, 85, 2);
+    border-top-color: rgb(5, 54, 21);
     border-bottom-color: black;
-    border-left-color: rgb(8, 85, 2);
-    border-right-color: rgb(8, 85, 2);
+    border-left-color: rgb(5, 54, 21);
+    border-right-color: rgb(5, 54, 21);
 }
 
 /*Positioning the h1 inside of the nav bar*/
@@ -57,7 +57,7 @@ nav h1 {
 button {
     margin-left: 15px;
     padding: 10px 20px;
-    background-color: rgba(8, 85, 2, 0.712);
+    background-color: rgb(5, 54, 21);
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -81,7 +81,7 @@ header {
     width: auto;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(202, 178, 148);
+    border-color: rgb(127, 185, 166);
 }
 
 
@@ -101,7 +101,7 @@ main {
 .projects img {
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(202, 178, 148);
+    border-color: rgb(127, 185, 166);
     margin-right: 15px;
 }
 
@@ -143,12 +143,12 @@ footer {
     padding: 0px;
     height: 60px;
     width: 100%;
-    background-color:  rgb(8, 85, 2);
+    background-color:  rgb(5, 54, 21);
     border-style: solid;
     border-top-color: black;
-    border-bottom-color: rgb(8, 85, 2);
-    border-left-color: rgb(8, 85, 2);
-    border-right-color: rgb(8, 85, 2);
+    border-bottom-color: rgb(5, 54, 21);
+    border-left-color: rgb(5, 54, 21);
+    border-right-color: rgb(5, 54, 21);
 }
 
 /*Aligning and sizing content within the footer*/
@@ -269,7 +269,7 @@ footer {
 
     .container-main {
         padding: 0%;
-        border: green;
+        border: rgb(127, 185, 166);
         margin: 3vw;
     }
 
